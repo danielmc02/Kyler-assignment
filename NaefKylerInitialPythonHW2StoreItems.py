@@ -7,9 +7,8 @@ print('Video Game: ' + videoGame + '\n') #output the prev input
 
 costOfVideoGameToFloat = float(costOfVideoGame) # We need to cast the string to a float (float means a decimal number)
 actionFigure = input('What action figure would you like to purchase?\n')
-costOfActionFigureToFloat = float(costOfActionFigure) #Casts a string value to a float
-
 costOfActionFigure = input('What is the cost of the action figure? ')
+costOfActionFigureToFloat = float(costOfActionFigure) #Casts a string value to a float
 
 
 print('Action Figure: ' + actionFigure + '\n') #output the prev input
