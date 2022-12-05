@@ -19,6 +19,6 @@ subTotal = costOfVideoGameToFloat + costOfActionFigureToFloat
 taxAmount = subTotal * .10
 
 print('The subtotal is: ')
-print("%.2F" % subTotal) # The weird thing (%.2F) sets the precision. What would be 9.000020321001 would become 9.00
+print("%.2F" % subTotal) # The weird thing (%.2F) sets the precision. What would be 9.000020321001 would become 9.00 (2 decimal points)
 print('\nThe tax due is: ')
 print("%.2F" % taxAmount)
