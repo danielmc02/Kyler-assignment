@@ -1,5 +1,5 @@
 # Kyler Naef 696969
-store = 'Gamestop' #Harcoded title of the store. This is given a value at compile time, therefore 'hard coded'
+store = 'Gamestop' #Harcoded title of the store. This is essentially given a value at what would be compile time if it wasn't an interpreted lang, therefore 'hard coded'
 print('Welcome to ' + store + '\n') # String concatenation
 videoGame = input('What video game would you like to purchase?\n') # Returns a string value and assigns it to video game
 costOfVideoGame = input('What is the cost of the video game? ') #Returns a string value and assigns it to the variable
